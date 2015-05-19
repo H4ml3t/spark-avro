@@ -3,7 +3,7 @@
 A library for querying Avro data with [Spark SQL](http://spark.apache.org/docs/latest/sql-programming-guide.html).
 
 ## Version
-This is the version 0.1 of [https://github.com/databricks/spark-avro](https://github.com/databricks/spark-avro) in which with Spark 1.2.0 and Scala 2.10.4 there was the issue *Long Type not supported*:
+This is the version 0.1 of [https://github.com/databricks/spark-avro](https://github.com/databricks/spark-avro) with a fix for a bug with Spark 1.2.0 and Scala 2.10.4 for *Long Type not supported*:
 
 ```
 java.lang.RuntimeException: Unsupported type LONG
